@@ -1,6 +1,4 @@
-import { NavLink, Route, Routes } from 'react-router-dom';
-import HomePage from './HomePage';
-import SearchPage from './SearchPage';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -20,10 +18,6 @@ const Navigation = () => {
           </NavLink>
         </div>
       </nav>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/search" element={<SearchPage />} />
-      </Routes>
     </>
   );
 };
